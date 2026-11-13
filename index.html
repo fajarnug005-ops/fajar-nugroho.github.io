@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Fajar | Marketing & Sales</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+nav {
+    background: #102a43;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.hero {
+    background: linear-gradient(120deg, #102a43, #2563a6);
+    color: white;
+    padding: 90px 8%;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    color: #dbeafe;
+}
+
+.btn {
+    display: inline-block;
+    background: #38bdf8;
+    color: #102a43;
+    padding: 12px 24px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+section {
+    padding: 55px 8%;
+}
+
+section h2 {
+    color: #12345a;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #dbeafe;
+    color: #12345a;
+    padding: 10px 16px;
+    border-radius: 20px;
+}
+
+footer {
+    background: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+    nav a {
+        margin: 5px;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>FAJAR.</h2>
+    <div>
+        <a href="#tentang">Profil</a>
+        <a href="#skill">Keahlian</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#kontak">Kontak</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <div style="width:110px;height:110px;
+    background:#38bdf8;color:#102a43;
+    border-radius:50%;display:flex;
+    align-items:center;justify-content:center;
+    font-size:38px;font-weight:bold;
+    margin-bottom:20px;">
+        FN
+    </div>
+
+    <h1>Halo, Saya Fajar Nugroho</h1>
+    <h3>Marketing & Sales </h3>
+    <p>
+        Saya tertarik pada dunia pemasaran,
+        penjualan, komunikasi, dan membangun
+        hubungan baik dengan pelanggan.
+    </p>
+    <a href="#tentang" class="btn">Kenali Saya</a>
+</div>
+
+<section id="tentang">
+    <h2>Tentang Saya</h2>
+    <div class="card">
+        <p>
+            Perkenalkan, saya Fajar Nugroho.
+            Saya memiliki ketertarikan dalam
+            bidang Marketing dan Sales.
+            Saya ingin terus mengembangkan
+            kemampuan komunikasi, pemasaran,
+            dan pelayanan pelanggan.
+        </p>
+    </div>
+</section>
+
+<section id="skill">
+    <h2>Keahlian</h2>
+    <div class="card skills">
+        <span>Komunikasi</span>
+        <span>Negosiasi</span>
+        <span>Marketing</span>
+        <span>Sales</span>
+        <span>Customer Service</span>
+        <span>Promosi</span>
+    </div>
+</section>
+
+<section id="proyek">
+    <h2>Pengalaman Kerja</h2>
+
+    <div class="card">
+        <h3>Nadja Fashion Store</h3>
+        <h4>Pramuniaga & Kasir</h4>
+        <p><strong>November 2024 - Sekarang</strong></p>
+
+        <p>Tanggung Jawab:</p>
+        <ul>
+            <li>Melayani pelanggan dengan ramah.</li>
+            <li>Menawarkan dan menjelaskan produk fashion.</li>
+            <li>Membantu proses penjualan.</li>
+            <li>Menangani transaksi pembayaran.</li>
+            <li>Mengatur display dan penataan produk.</li>
+        </ul>
+
+        <br>
+
+        <p><strong>Pencapaian:</strong></p>
+        <ul>
+            <li>Berpengalaman dalam mencapai target penjualan.</li>
+            <li>Memiliki pengalaman melayani pelanggan secara langsung.</li>
+            <li>Memiliki kemampuan menawarkan produk kepada pelanggan.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="pendidikan">
+    <h2>Pendidikan</h2>
+    <div class="card">
+        <h3>SMK Negeri 1 Klaten</h3>
+        <p>Jurusan Teknik Komputer dan Jaringan (TKJ)</p>
+        <p>Tahun Kelulusan: 2023</p>
+    </div>
+</section>
+        <p>Email: fajarnug005@gmail.com</p>
+        <p>WhatsApp: 089649978905</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Portofolio Fajar Nugroho</p>
+</footer>
+
+</body>
+</html>
